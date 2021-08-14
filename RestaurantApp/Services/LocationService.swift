@@ -16,6 +16,7 @@ enum Result<T> {
 
 final class LocationService: NSObject {
     private let manager: CLLocationManager
+    private let manager24682468: CLLocationManager
 
     init(manager: CLLocationManager = .init()) {
         self.manager = manager
